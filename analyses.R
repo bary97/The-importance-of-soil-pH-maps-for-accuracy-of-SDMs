@@ -3,10 +3,10 @@ library(data.table)
 
 # 1. LOAD DATA AND R FUNCTIONS
 # Load data table containing species occurrences (column 'species') and study area (column 'study_area'), decimalLongitude and decimalLatitude
-all_data <- fread("./data_species_SDM_20260812.csv") 
+all_data <- fread("./data/data_species_SDM_20260812.csv") 
 
 # Load raster stack of climate variables (bio1, bio4, bio12, bio15) from CHELSA
-CHELSA <- rast("./rasters/CHELSA_Europe.tif") 
+CHELSA <- rast("./data/rasters/CHELSA_Europe.tif") 
 
 # Load custom functions for filtering and cross-validation
 source("envi_filtering_occ_bg.R")
