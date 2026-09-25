@@ -18,6 +18,6 @@ The scripts require the following R packages:
 
 ## Data Availability
 
-The spatial data and initial occurrence dataset used by these scripts are too large to be hosted on GitHub. They are permanently archived and freely available on Zenodo at 10.5281/zenodo.22957894
+The spatial data and initial occurrence dataset used by these scripts are too large to be hosted on GitHub. They are permanently archived and freely available on Zenodo.
 
 To run the analyses, download the data from Zenodo and place the files into a local `/data` directory before executing the scripts.
